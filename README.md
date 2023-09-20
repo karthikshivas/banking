@@ -1,7 +1,7 @@
 # Banking app written in Elixir to perform actions like 
 Deposit amount to User account, 
 Withdraw amount from User account, 
-Get Balance of a User
+Get Balance of a User and
 Fund Transfer between users
 
 Used Dynamic Supervisor to start a GenServer per User. And also used Registry to store the pid of GenServer with key as UserId
